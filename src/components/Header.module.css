@@ -1,13 +1,4 @@
-.navWrapper {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .navTop {
-    max-width: 1920px;
-    width: 100%;
     background-color: var(--color-secondary);
     padding: .4rem 3rem .4rem 3rem;
     display: flex;
@@ -20,7 +11,7 @@
     gap: 2rem;
 }
 
-.number {
+.numberBox {
     color: var(--color-primary);
     display: flex;
     align-items: center;
@@ -32,7 +23,11 @@
     font-size: 1.2rem;
 }
 
-.email {
+.number {
+    font-weight: 300;
+}
+
+.emailBox {
     color: var(--color-primary);
     display: flex;
     align-items: center;
@@ -43,6 +38,10 @@
 .envelope {
     height: 20px;
     width: 20px;
+}
+
+.email {
+    font-weight: 300;
 }
 
 .navSocials {
@@ -75,7 +74,21 @@
 }
 
 .navBottom {
-    max-width: 1920px;
-    width: 100%;
     padding: 1rem 3rem 1rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoLink {
+
+}
+
+.navLinks {
+    display: flex;
+    gap: 2rem;
+}
+
+.navLink {
+    text-decoration: none;
 }

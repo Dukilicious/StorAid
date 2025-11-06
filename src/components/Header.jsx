@@ -1,18 +1,20 @@
-import styles from "./NavBar.module.css";
+import { Link, NavLink } from "react-router-dom";
+import styles from "./Header.module.css";
+import Button from "./Button";
 
-function NavBar() {
+function Header() {
   return (
     <>
-      <nav className={styles.navWrapper}>
+      <div className={styles.navWrapper}>
           <div className={styles.navTop}>
             <div className={styles.numberEmail}>
-              <div className={styles.number}>
+              <div className={styles.numberBox}>
                 <i className={`bi bi-telephone-fill ${styles.telephone}`}></i>
-                <div>+46 8 123 122 44</div>
+                <div className={styles.number}>+46 8 123 122 44</div>
               </div>
-              <div className={styles.email}>
+              <div className={styles.emailBox}>
                 <img className={styles.envelope} src="/envelope-icon.svg" alt="Envelope Icon" />
-                <div>contact@domain.com</div>
+                <div className={styles.email}>contact@domain.com</div>
               </div>
             </div>
             <div className={styles.navSocials}>
@@ -39,15 +41,21 @@ function NavBar() {
             </div>
           </div>
           <div className={styles.navBottom}>
-            <img src="/storaid-logo.svg" alt="" />
-            <div className={styles.navLinks}>
-              
-            </div>
-            
+            <Link className={styles.logoLink} to="/">
+              <img src="/storaid-logo.svg" alt="StorAid logo" />
+            </Link>
+            <nav className={styles.navLinks}>
+              <NavLink className={styles.navLink} to="/">Home</NavLink>
+              <NavLink className={styles.navLink} to="/about">About Us</NavLink>
+              <NavLink className={styles.navLink} to="/contact">Contact Us</NavLink>
+            </nav>
+            <Link to="/">
+              <Button text="Book Now" variant="green"/>
+            </Link>
           </div>
-      </nav>
+      </div>
     </>
   )
 }
 
-export default NavBar
+export default Header

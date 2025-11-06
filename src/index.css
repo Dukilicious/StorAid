@@ -22,4 +22,23 @@ html, body {
 
     --font-urbanist: 'Urbanist', sans-serif;
     --font-inter: 'Inter', sans-serif;
+
+    --font-size-h1: 5rem;
+    --font-size-h2: 4rem;
+    --font-size-h3: 3.25rem;
+    --font-size-h4: 1.5625rem;
+    --font-size-h5: 1.5rem;
+    --font-size-h6: 1.25rem;
+    --font-size-text: 1rem;
+    --font-size-text2: 0.9375rem;
+    --font-size-text3: 1.125rem;
+    --font-size-text4: 0.875rem;
+    --font-size-text5: 1.0625rem;
+}
+
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }

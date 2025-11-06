@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Urbanist', sans-serif;
+}
+
+:root {
+    --color-primary: #ffffff;
+    --color-secondary: #12372A;
+    --color-accent: #F1C30C;
+    --color-accent3: rgba(18, 55, 42, 0.8);
+    --color-color: #12372A;
+    --color-color2: #ECECEC;
+    --color-color3: #FAF8EC;
+    --color-color4: #F1FFEA;
+
+    --font-urbanist: 'Urbanist', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+}

@@ -1,0 +1,81 @@
+.navWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navTop {
+    max-width: 1920px;
+    width: 100%;
+    background-color: var(--color-secondary);
+    padding: .4rem 3rem .4rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.numberEmail {
+    display: flex;
+    gap: 2rem;
+}
+
+.number {
+    color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-family: var(--font-inter);
+}
+
+.telephone {
+    font-size: 1.2rem;
+}
+
+.email {
+    color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-family: var(--font-inter);
+}
+
+.envelope {
+    height: 20px;
+    width: 20px;
+}
+
+.navSocials {
+    display: flex;
+    gap: 1rem;
+}
+
+.facebook, .twitterX, .instagram, .youtube {
+    background-color: var(--color-accent);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.socialsIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.instagramIcon {
+    margin-bottom: 1px;
+    margin-left: 1px;
+}
+
+.youtubeIcon {
+    margin-bottom: 1px;
+}
+
+.navBottom {
+    max-width: 1920px;
+    width: 100%;
+    padding: 1rem 3rem 1rem 3rem;
+}

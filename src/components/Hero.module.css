@@ -1,0 +1,33 @@
+.heroWrapper {
+    background-color: var(--color-accent3);
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    padding: 10rem 0 0 0;
+}
+
+.heroInfo {
+    max-width: 715px;
+}
+
+.text1 {
+    font-size: var(--font-size-h4);
+    font-weight: 700;
+    color: var(--color-accent);
+}
+
+.heroH1 {
+    font-size: var(--font-size-h1);
+    font-weight: 700;
+    color: var(--color-color4);
+    font-family: var(--font-inter);
+    line-height: 1;
+    margin: .5rem 0 1rem 0;
+}
+
+.text2 {
+    font-size: var(--font-size-text);
+    font-family: var(--font-inter);
+    color: var(--color-primary);
+    margin-bottom: 2rem;
+}

@@ -3,4 +3,28 @@
     color: var(--color-secondary);
     border: none;
     font-size: var(--font-size-text2);
+    transition: background-color 0.2s ease-in-out;
 }
+
+.bookDiscover {
+    font-weight: 600;
+    padding: .7rem 1.8rem;
+    border-radius: 5px;
+
+}
+
+.rent {
+
+}
+
+.green:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+
+}
+
+.white:hover {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+}
+

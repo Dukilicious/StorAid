@@ -78,17 +78,25 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.logoLink {
-
+    position: relative;
 }
 
 .navLinks {
     display: flex;
     gap: 2rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .navLink {
     text-decoration: none;
+    color: var(--color-secondary);
+    font-size: var(--font-size-text3);
+    font-weight: 600;
+
+}
+
+.navLink.active {
+    color: var(--color-accent);
 }

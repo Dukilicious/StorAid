@@ -1,4 +1,4 @@
-.navTop {
+.nav-top {
     background-color: var(--color-secondary);
     padding: .4rem 3rem .4rem 3rem;
     display: flex;
@@ -6,12 +6,12 @@
     align-items: center;
 }
 
-.numberEmail {
+.number-email {
     display: flex;
     gap: 2rem;
 }
 
-.numberBox {
+.number-box {
     color: var(--color-primary);
     display: flex;
     align-items: center;
@@ -27,7 +27,7 @@
     font-weight: 300;
 }
 
-.emailBox {
+.email-box {
     color: var(--color-primary);
     display: flex;
     align-items: center;
@@ -44,7 +44,7 @@
     font-weight: 300;
 }
 
-.navSocials {
+.nav-socials {
     display: flex;
     gap: 1rem;
 }
@@ -64,16 +64,16 @@
     transform: translate(-50%, -50%);
 }
 
-.instagramIcon {
+.instagram-icon {
     margin-bottom: 1px;
     margin-left: 1px;
 }
 
-.youtubeIcon {
+.youtube-icon {
     margin-bottom: 1px;
 }
 
-.navBottom {
+.nav-bottom {
     padding: 1rem 3rem 1rem 3rem;
     display: flex;
     align-items: center;
@@ -81,7 +81,7 @@
     position: relative;
 }
 
-.navLinks {
+.nav-links {
     display: flex;
     gap: 2rem;
     position: absolute;
@@ -89,7 +89,7 @@
     transform: translateX(-50%);
 }
 
-.navLink {
+.nav-link {
     text-decoration: none;
     color: var(--color-secondary);
     font-size: var(--font-size-text3);
@@ -97,6 +97,6 @@
 
 }
 
-.navLink.active {
+.nav-link.active {
     color: var(--color-accent);
 }

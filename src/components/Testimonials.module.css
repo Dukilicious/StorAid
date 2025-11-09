@@ -1,0 +1,107 @@
+.wrapper {
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 0;
+    gap: 1.5rem;
+}
+
+.bg {
+    height: 100%;
+    background:
+        linear-gradient(var(--color-accent3)),
+        url(/testimonials-bg.svg);
+    background-position: center;
+}
+
+.no-bg {
+    height: 100%;
+    background-color: var(--color-accent3);
+}
+
+.textContainer {
+    display: grid;
+    place-items: center;
+}
+
+.text1 {
+    font-size: var(--font-size-h4);
+    font-weight: 700;
+    color: var(--color-accent);
+}
+
+.text2 {
+    font-size: var(--font-size-h3);
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.text3 {
+    font-size: var(--font-size-text);
+    color: var(--color-primary);
+    font-family: var(--font-inter);
+    max-width: 1060px;
+    text-align: center;
+}
+
+.testimonialContainer {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.testimonialBox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-primary);
+    width: 440px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 2rem 1.5rem;
+    gap: 2rem;
+}
+
+.userComment {
+    font-size: var(--font-size-text);
+    color: var(--color-secondary);
+    font-family: var(--font-inter);
+    max-width: 375px;
+}
+
+.userContainer {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.userPicture {
+    border: 2px solid black;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+
+.userName {
+    font-size: var(--font-size-h6);
+    font-weight: 700;
+    color: var(--color-secondary);
+}
+
+.customer {
+    font-size: var(--font-size-text4);
+    font-family: var(--font-inter);
+    color: var(--color-secondary);
+}
+
+.quotationIcon {
+    position: absolute;
+    left: 83%;
+    top: 75%;
+}

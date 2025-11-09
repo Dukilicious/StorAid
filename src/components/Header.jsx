@@ -5,19 +5,19 @@ import Button from "./Button";
 function Header() {
   return (
     <>
-      <div className="navWrapper">
-          <div className="navTop">
-            <div className="numberEmail">
-              <div className="numberBox">
+      <div className="nav-wrapper">
+          <div className="nav-top">
+            <div className="number-email">
+              <div className="number-box">
                 <i className={`bi bi-telephone-fill ${"telephone"}`}></i>
                 <div className="number">+46 8 123 122 44</div>
               </div>
-              <div className="emailBox">
+              <div className="email-box">
                 <img className="envelope" src="/envelope-icon.svg" alt="Envelope Icon" />
                 <div className="email">contact@domain.com</div>
               </div>
             </div>
-            <div className="navSocials">
+            <div className="nav-socials">
               <a className="facebook" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                 <img className="facebook-icon socials-icon" src="/facebook-icon.svg" alt="Facebook icon" />
               </a>
@@ -32,14 +32,14 @@ function Header() {
               </a>
             </div>
           </div>
-          <div className="navBottom">
+          <div className="nav-bottom">
             <Link to="/">
               <img src="/storaid-logo.svg" alt="StorAid logo" />
             </Link>
-            <nav className="navLinks">
-              <NavLink className="navLink" to="/">Home</NavLink>
-              <NavLink className="navLink" to="/about">About Us</NavLink>
-              <NavLink className="navLink" to="/contact">Contact Us</NavLink>
+            <nav className="nav-links">
+              <NavLink className="nav-link" to="/">Home</NavLink>
+              <NavLink className="nav-link" to="/about">About Us</NavLink>
+              <NavLink className="nav-link" to="/contact">Contact Us</NavLink>
             </nav>
             <Button text="Book Now" variant="green" route="/about" />
           </div>

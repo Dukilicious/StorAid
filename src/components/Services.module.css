@@ -3,24 +3,27 @@
     flex-direction: column;
     margin: 0 auto;
     max-width: 1400px;
-    padding: 5rem 0;
+    padding: 6rem 0;
+    gap: 1.5rem;
 }
 
 .topContainer {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
-.headingBox {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
 
 .smallHeading {
     font-size: var(--font-size-h4);
     font-weight: 700;
     color: var(--color-accent);
+}
+
+.textBox {
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .largeHeading {
@@ -34,7 +37,30 @@
 .paragraph {
     font-size: var(--font-size-text);
     color: var(--color-secondary);
-    max-width: 620px;
-    display: grid;
-    place-items: center;
+    font-family: var(--font-inter);
+    max-width: 680px;
+}
+
+.bottomContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tilesLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.image {
+    background-color: #c4c4c4;
+    border: 3px solid var(--color-color2);
+    max-width: 520px;
+    width: 100%;
+}
+
+.tilesRight {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }

@@ -6,12 +6,12 @@ function Services() {
   return (
     <section className={styles.servicesWrapper}>
       <div className={styles.topContainer}>
-        <div className={styles.headingBox}>
-          <div className={styles.smallHeading}>Our Services</div>
+        <div className={styles.smallHeading}>Our Services</div>
+        <div className={styles.textBox}>
           <div className={styles.largeHeading}>Specialized Storage for Every Special Item</div>
-        </div>
-        <div className={styles.paragraph}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie nisl sed dui lacinia gravida. Nulla quis nulla leo. Mauris ac blandit nisi non sodales augue. Phasellus eget elit gravida.
+          <div className={styles.paragraph}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie nisl sed dui lacinia gravida. Nulla quis nulla leo. Mauris ac blandit nisi non sodales augue. Phasellus eget elit gravida.
+          </div>
         </div>
       </div>
       <div className={styles.bottomContainer}>

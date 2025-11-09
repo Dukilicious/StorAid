@@ -49,7 +49,7 @@
     gap: 1rem;
 }
 
-.facebook, .twitterX, .instagram, .youtube {
+.facebook, .twitterx, .instagram, .youtube {
     background-color: var(--color-accent);
     border-radius: 50%;
     width: 30px;
@@ -57,7 +57,7 @@
     position: relative;
 }
 
-.socialsIcon {
+.socials-icon {
     position: absolute;
     top: 50%;
     left: 50%;

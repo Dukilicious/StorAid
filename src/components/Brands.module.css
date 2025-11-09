@@ -1,0 +1,7 @@
+.brandsWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 4.5rem;
+    background-color: var(--color-color3);
+    padding: 2rem 0;
+}

@@ -1,17 +1,18 @@
 import React from 'react';
 import styles from "./Button.module.css";
-import { Link } from "react-router-dom"
+import { useNavigate } from 'react-router-dom';
 
-function Button({ text, size = "bookNow", variant = "green" }) {
+function Button({ text, size, variant, route }) {
   
-    const buttonClass = `${styles.button} ${styles[variant]} ${styles[size]}`;
-
+    const navigate = useNavigate();
+    const handleClick = () => navigate(route);
+    
+    const buttonClass = `${styles.button} ${styles[size]} ${styles[variant]}`;
+    
     return (
-        <Link to="/">
-            <button className={buttonClass}>
+            <button className={buttonClass} onClick={handleClick}>
                 {text}
             </button>
-        </Link>
   )
 }
 

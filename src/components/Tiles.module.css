@@ -1,0 +1,31 @@
+.tile {
+    padding: 1rem;
+    border: 2px solid var(--color-color2);
+    border-radius: 10px;
+    transition: border 0.2s ease-in-out;
+}
+
+.tile:hover {
+    border: 2px solid var(--color-accent);
+}
+
+.title {
+    font-size: var(--font-size-h4);
+    color: var(--color-secondary);
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.text {
+    font-size: var(--font-size-text);
+    color: var(--color-secondary);
+    font-family: var(--font-inter);
+}
+
+.small {
+    max-width: 320px;
+}
+
+.large {
+    max-width: 390px;
+}

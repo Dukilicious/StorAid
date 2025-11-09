@@ -1,0 +1,40 @@
+.servicesWrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 5rem 0;
+}
+
+.topContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headingBox {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.smallHeading {
+    font-size: var(--font-size-h4);
+    font-weight: 700;
+    color: var(--color-accent);
+}
+
+.largeHeading {
+    font-size: var(--font-size-h3);
+    font-weight: 700;
+    color: var(--color-secondary);
+    line-height: 1;
+    max-width: 620px;
+}
+
+.paragraph {
+    font-size: var(--font-size-text);
+    color: var(--color-secondary);
+    max-width: 620px;
+    display: grid;
+    place-items: center;
+}

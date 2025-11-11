@@ -43,7 +43,7 @@ function AboutUs() {
             </div>
             <div className={styles.contactContainer}>
                 <div className={styles.button}>
-                    <Button text="Discover More" variant="green" route="/contact" />
+                    <Button text="Discover More" variant="green" route="/about" />
                 </div>
                 <div className={styles.infoContainer}>
                     <div className={styles.iconContainer}>

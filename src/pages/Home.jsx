@@ -4,6 +4,7 @@ import AboutUs from '../components/AboutUs'
 import Brands from '../components/Brands'
 import Services from '../components/Services'
 import Testimonials from '../components/Testimonials'
+import ChooseUs from '../components/ChooseUs'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <Brands />
       <Services />
       <Testimonials background="bg" />
+      <ChooseUs bgColor="beige" />
     </>
   )
 }

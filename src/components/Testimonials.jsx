@@ -30,7 +30,7 @@ function Testimonials({ background }) {
                             <img src="/quotation-icon.svg" alt="icon" />
                         </div>
                     </div>
-                    <div className={`${styles.leftTestimonial} ${styles.testimonialBox}`}>
+                    <div className={`${styles.middleTestimonial} ${styles.testimonialBox}`}>
                         <div className={styles.starsIcon}>
                             <img src="/5-stars.svg" alt="4 star rating image" />
                         </div>
@@ -50,7 +50,7 @@ function Testimonials({ background }) {
                             <img src="/quotation-icon.svg" alt="icon" />
                         </div>
                     </div>
-                    <div className={`${styles.leftTestimonial} ${styles.testimonialBox}`}>
+                    <div className={`${styles.rightTestimonial} ${styles.testimonialBox}`}>
                         <div className={styles.starsIcon}>
                             <img src="/5-stars.svg" alt="4 star rating image" />
                         </div>

@@ -1,0 +1,39 @@
+.wrapper {
+    display: grid;
+    place-items: center;
+    padding: 5rem 0;
+}
+
+.container {
+    max-width: 1380px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.text1 {
+    font-size: var(--font-size-h4);
+    font-weight: 700;
+    color: var(--color-accent);
+}
+
+.text2 {
+    font-size: var(--font-size-h3);
+    font-weight: 700;
+    color: var(--color-secondary);
+    max-width: 570px;
+    line-height: 1;
+}
+
+.priceListContainer {
+    display: flex;
+    gap: 2rem;
+}
+

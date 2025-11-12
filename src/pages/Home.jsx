@@ -5,6 +5,7 @@ import Brands from '../components/Brands'
 import Services from '../components/Services'
 import Testimonials from '../components/Testimonials'
 import ChooseUs from '../components/ChooseUs'
+import Pricing from '../components/Pricing'
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <Services />
       <Testimonials background="bg" />
       <ChooseUs bgColor="beige" />
+      <Pricing />
     </>
   )
 }

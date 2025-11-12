@@ -1,0 +1,22 @@
+.wrapper {
+    background-color: var(--color-accent3);
+    display: grid;
+    place-items: center;
+    padding: 5rem 0;
+}
+
+.title {
+    font-size: var(--font-size-h3);
+    font-weight: 700;
+    color: var(--color-primary);
+    max-width: 1100px;
+    text-align: center;
+}
+
+.paragraph {
+    font-size: var(--font-size-text);
+    color: var(--color-primary);
+    font-family: var(--font-inter);
+    max-width: 1063px;
+    text-align: center;
+}

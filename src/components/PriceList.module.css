@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: background-color .2s ease-in-out;
 }
 
 .topContainer {
@@ -114,12 +115,22 @@
     color: var(--color-secondary);
 }
 
+.title, .month, .priceParagraph, .info {
+    transition: color .2s ease-in-out;
+}
+
+.breakLine, .checkMark {
+    transition: border-color .2s ease-in-out;
+}
+
+.checkBox {
+    transition: background-color .2s ease-in-out;
+}
 
 /* --------------- Hover-colors --------------- */
 
 .wrapper:hover {
    background-color: var(--color-secondary);
-   transition: ease-in-out 0.2s;
 
    .title, .month, .priceParagraph, .info {
     color: var(--color-primary);

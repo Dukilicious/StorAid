@@ -7,6 +7,7 @@ import Testimonials from '../components/Testimonials'
 import ChooseUs from '../components/ChooseUs'
 import Pricing from '../components/Pricing'
 import LookingForSecure from '../components/LookingForSecure'
+import Blog from '../components/Blog'
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
       <ChooseUs bgColor="beige" />
       <Pricing />
       <LookingForSecure />
+      <Blog />
     </>
   )
 }

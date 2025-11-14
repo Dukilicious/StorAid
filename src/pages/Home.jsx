@@ -8,6 +8,7 @@ import ChooseUs from '../components/ChooseUs'
 import Pricing from '../components/Pricing'
 import LookingForSecure from '../components/LookingForSecure'
 import Blog from '../components/Blog'
+import Subscribe from '../components/Subscribe'
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
       <Pricing />
       <LookingForSecure />
       <Blog />
+      <Subscribe />
     </>
   )
 }

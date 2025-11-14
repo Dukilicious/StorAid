@@ -1,0 +1,39 @@
+.wrapper {
+    background-color: var(--color-secondary);
+    display: grid;
+    place-items: center;
+    padding: 2rem 0;
+}
+
+.container {
+    max-width: 1390px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright {
+    color: var(--color-primary);
+    font-size: var(--font-size-text);
+    font-family: var(--font-inter);
+
+}
+
+.rightContainer {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.textContainer {
+    display: flex;
+
+    gap: .5rem;
+}
+
+.text {
+    color: var(--color-primary);
+    font-size: var(--font-size-text);
+    font-family: var(--font-inter);
+}

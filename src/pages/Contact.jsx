@@ -1,8 +1,11 @@
 import React from 'react'
+import Banner from "../components/Banner"
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <>
+      <Banner title="Contact Us" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo." />
+    </>
   )
 }
 

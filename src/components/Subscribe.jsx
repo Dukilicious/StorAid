@@ -17,6 +17,7 @@ function Subscribe() {
 
   return (
     <form onSubmit={handleSubmit} noValidate className={styles.wrapper}>
+      
         <div className={styles.container}>
           <div className={styles.textContainer}>
               <h3 className={styles.title}>Subscribe Our Newsletter</h3>

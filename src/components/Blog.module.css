@@ -36,7 +36,7 @@
     color: var(--color-secondary);
     max-width: 675px;
     font-family: var(--font-inter);
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
 }
 
 .cardsContainer {

@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from "./SubmitBtn.module.css"
 
-function SubmitBtn() {
+function SubmitBtn({ size }) {
   return (
-    <button type="submit" className={styles.button}>Submit</button>
+    <button type="submit" className={`${styles.button} ${styles[size]}`}>Submit</button>
   )
 }
 

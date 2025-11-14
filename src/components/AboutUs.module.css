@@ -67,6 +67,7 @@
     font-size: var(--font-size-text);
     color: var(--color-secondary);
     font-family: var(--font-inter);
+    margin-bottom: .5rem;
 }
 
 .tilesContainer {

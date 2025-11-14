@@ -3,7 +3,7 @@ import styles from "./Footer.module.css"
 
 function Footer() {
   return (
-    <div className={styles.wrapper}>
+    <footer className={styles.wrapper}>
         <div className={styles.container}>
 
             <p className={styles.copyright}>© 2025 StorAid, All rights reserved.</p>
@@ -21,7 +21,7 @@ function Footer() {
             </div>
 
         </div>
-    </div>
+    </footer>
   )
 }
 

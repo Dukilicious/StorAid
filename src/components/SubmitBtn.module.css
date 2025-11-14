@@ -14,3 +14,8 @@
     background-color: var(--color-secondary);
     color: var(--color-primary);
 }
+
+.wide {
+    padding: .7rem 3.5rem;
+    border-radius: 3px;
+}

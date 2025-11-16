@@ -1,0 +1,51 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--color-primary);
+    padding: 2rem 1.5rem;
+    max-width: 440px;
+    gap: 2rem;
+    border-radius: .5rem;
+    position: relative;
+}
+
+.comment {
+    font-size: var(--font-size-text);
+    font-family: var(--font-inter);
+    color: var(--color-secondary);
+}
+
+.clientContainer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.name {
+    font-size: var(--font-size-h6);
+    font-weight: 700;
+    color: var(--color-secondary);
+}
+
+.company {
+    font-size: var(--font-size-text4);
+    font-family: var(--font-inter);
+    color: var(--color-secondary);
+}
+
+.image {
+    position: absolute;
+    left: 80%;
+    top: 78%;
+}

@@ -4,6 +4,7 @@
     padding: 1.5rem 1.5rem 2rem 1.5rem;
     border-radius: .5rem;
     max-width: 430px;
+    min-height: 570px;
 }
 
 .image {
@@ -33,6 +34,9 @@
 }
 
 .textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     max-width: 370px;
 }
 
@@ -47,21 +51,6 @@
     font-size: var(--font-size-text);
     font-family: var(--font-inter);
     color: var(--color-primary);
-}
-
-.readMore {
-    font-size: var(--font-size-text);
-    font-family: var(--font-inter);
-    color: var(--color-accent);
-    text-decoration: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-}
-
-.arrowIcon {
-    font-size: 1.5rem;
-    margin-top: .15rem;
 }
 
 .dateContainer, .title, .paragraph {

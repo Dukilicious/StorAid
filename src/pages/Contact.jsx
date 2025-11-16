@@ -3,6 +3,7 @@ import Banner from "../components/Banner"
 import GetInTouch from '../components/GetInTouch'
 import FindUs from '../components/FindUs'
 import Faq from '../components/Faq'
+import Subscribe from '../components/Subscribe'
 
 function Contact() {
   return (
@@ -11,6 +12,7 @@ function Contact() {
       <GetInTouch />
       <FindUs />
       <Faq />
+      <Subscribe />
     </>
   )
 }

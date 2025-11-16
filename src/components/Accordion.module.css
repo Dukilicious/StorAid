@@ -1,0 +1,81 @@
+.accordion {
+    background-color: var(--color-color2);
+    border-radius: 8px;
+}
+
+.accordionInput:checked + .accordionLabel {
+    background-color: var(--color-accent);
+    border-radius: 8px;
+    color: var(--color-primary);
+}
+
+.accordionInput {
+    display: none;
+}
+
+.accordionLabel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: var(--font-size-text5);
+    color: var(--color-secondary);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.accordionLabel:hover {
+    background-color: var(--color-accent);
+    color: var(--color-primary);
+    border-radius: 8px;
+
+    .chevronIcon {
+        color: var(--color-primary);
+    }
+}
+
+.accordionIcon {
+    display: block;
+    position: relative;
+    transition: transform 0.3s ease;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+}
+
+.chevronIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--color-secondary);
+    font-size: 1rem;
+}
+
+.accordionInput:checked + .accordionLabel .accordionIcon {
+    transform: rotate(180deg);
+    position: relative;
+
+    .chevronIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--color-primary);
+    }
+}
+
+.accordionContent {
+    max-height: 0;
+    overflow: hidden;
+    font-size: var(--font-size-text);
+    color: var(--color-secondary);
+    font-family: var(--font-inter);
+    background-color: var(--color-primary);
+}
+
+.accordionInput:checked + .accordionLabel + .accordionContent {
+    max-height: 100%;
+    padding: 2rem;
+}

@@ -27,6 +27,7 @@
     min-height: 0;
     flex: 1;
     resize: none;
+    outline: none;
 }
 
 .textArea::placeholder {
@@ -35,5 +36,8 @@
 
 .textArea:focus {
     border: 1px solid var(--color-secondary);
-    outline: none;
+}
+
+.textAreaError {
+    border-color: red;
 }

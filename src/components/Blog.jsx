@@ -1,8 +1,21 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import styles from "./Blog.module.css"
 import Cards from './Card'
 
 function Blog() {
+
+    const [cardItems, setCardItems] = useState([])
+    
+    const fetchData = async () => {
+        const res = await fetch(`https://win25-jsf-assignment.azurewebsites.net/api/blogs`)
+        const data = await res.json()
+        setCardItems(data)
+    }
+    
+    useEffect(() => {
+        fetchData()
+    }, [])
+
   return (
     <section className={styles.wrapper}>
         <div className={styles.textContainer}>
@@ -16,9 +29,9 @@ function Blog() {
         </div>
 
         <div className={styles.cardsContainer}>
-            <Cards />
-            <Cards />
-            <Cards />
+            {cardItems.map((item) => (
+                <Cards key={item.id} item={item} />
+            ))}
         </div>
     </section>
   )

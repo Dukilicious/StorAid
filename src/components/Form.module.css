@@ -30,3 +30,7 @@
     border: 1px solid var(--color-secondary);
     outline: none;
 }
+
+.inputError {
+    border-color: red;
+}

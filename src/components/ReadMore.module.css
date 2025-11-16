@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.readMore {
+    border: none;
+    background: none;
+    color: var(--color-accent);
+    display: flex;
+    gap: .5rem;
+    font-size: var(--font-size-text);
+    font-family: var(--font-inter);
+}

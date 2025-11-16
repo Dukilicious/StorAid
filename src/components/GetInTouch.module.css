@@ -48,7 +48,7 @@
 .formContainer {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
     background-color: var(--color-color3);
     max-width: 670px;
     width: 100%;
@@ -61,6 +61,50 @@
     gap: 1rem;
 }
 
-.emailPhone {
+.emailGroup {
     flex: 1;
+}
+
+.phone {
+    flex: 1;
+}
+
+
+.formGroup {
+    position: relative;
+}
+
+.errorText {
+    position: absolute;
+    color: red;
+}
+
+.commentGroup {
+    margin-bottom: .5rem;
+}
+
+.submitBox {
+    background-color: var(--color-color3);
+    padding: 5rem 0;
+    display: grid;
+    place-items: center;
+}
+
+.submitTitle {
+    font-size: var(--font-size-h1);
+    color: var(--color-secondary);
+    font-weight: 700;
+}
+
+.submitParagraph {
+    font-size: var(--font-size-h3);
+    font-weight: 700;
+    color: var(--color-secondary);
+}
+
+.submitButton {
+    border: none;
+    background-color: var(--color-accent);
+    padding: 1rem 2rem;
+    border-radius: .5rem;
 }
